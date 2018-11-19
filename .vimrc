@@ -26,3 +26,10 @@ nmap <Leader><space> :nohlsearch<cr>
 "---------------- Split management ----------
 set splitbelow
 set splitright
+
+"----------------- Python config ---------o-
+set ts=4
+set autoindent
+set expandtab
+set shiftwidth=4
+set cursorline
