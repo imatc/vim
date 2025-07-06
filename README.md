@@ -11,3 +11,15 @@ Settings for vim
 ### VSCode
 
 Some random settings for VSCode
+
+- To install the font using homebrew:
+
+```
+brew install font-hack-nerd-font
+```
+
+- On Windows using Chocholatey:
+
+```
+choco install nerd-fonts-hack
+```
