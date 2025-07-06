@@ -1,0 +1,24 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+
+  "vim.leader": "<Space>",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":hsplit"] }
+  ],
+
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": ["/", "/"], "commands": ["y/V<C-R>=escape(@\",'/')<CR><CR>"] }
+  ],
+  "editor.minimap.enabled": false,
+  "git.autofetch": true,
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono"
+}
